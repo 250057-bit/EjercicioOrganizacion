@@ -2,7 +2,7 @@ main{
     height: 60%;
     background-color: #F4F6F7;
     width: 77%;
-    display: inline-block;
+    display: inline-flex;
     vertical-align: top;
 }
 table{
@@ -22,4 +22,5 @@ aside {
     width: 22%;
     display: inline-block;
     background-color: aqua;
+    vertical-align: top;
 }
