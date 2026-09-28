@@ -1,48 +1,5 @@
-* {
-    margin: 0%;
-}
-
-body {
-    height: 100vh;
-    width: 100vw;
-}
-
-header {
-    height: 10%;
-    background-color: green;
-    background-image: radial-gradient(rgba(255, 255, 255, 90%), rgba(255, 255, 255, 30%)), url("../assets/Pirineo.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-nav {
-    height: 10%;
-    background-color: blue;
-}
-
-main {
-    height: 80%;
-    background-color: pink;
-}
-
-footer {
-    height: 5%;
-    background-color: bisque;
-}
-
 
 /* Elementos */
-
-#hdrTitle {
-    color: green;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: xx-large;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 2%;
-}
 
 .sec3_1 {
     height: 25%;
@@ -52,4 +9,28 @@ footer {
 #sec2 {
     height: 50%;
     background-color: black;
+    display: flex;
+
 }
+
+.imgSec2 {
+    height: 70%;
+    margin: auto;
+    
+}
+
+.polaroid {
+    height: 100%;
+    background-color: white;
+    width:fit-content;
+}
+.imgPolaroid{
+    height: 70%;
+    margin:15px;
+}
+
+.caption {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
