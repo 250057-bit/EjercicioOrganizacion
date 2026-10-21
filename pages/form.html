@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../sytles/form.css">
+    <link rel="stylesheet" href="../sytles/styles.css">
+    <link rel="shortcut icon" href="../assets/433049.png" type="image/x-icon">
+    <script src="../scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="hdrTitle"><p>Mis Pirineos</p></div>
+        <div id="hdrSubtitle"><p>Formulario</p></div>
+    </header>
+    <nav>
+        <div class="divNav">
+            <a href="../index.html">
+                <button class="navBtn">Inicio</button>
+            </a>
+        </div>
+         <div class="divNav">
+            <a href="rutas.html">
+                <button class="navBtn">Rutas</button>
+            </a>
+        </div>
+         <div class="divNav">
+            <a href="pages/pag3.html">
+                <button class="navBtn">Pag3</button>
+            </a>
+        </div>
+         <div class="divNav">
+            <a href="pages/pag4.html">
+                <button class="navBtn">Pag4</button>
+            </a>
+        </div>
+    </nav>
+    <main> <!--Action no funcionara porque no hay ningun php ni backend ni na-->
+        <section id="form">
+            <form action="action.php" class="form">
+            <fieldset>
+                <legend>Formulario de interes</legend>
+
+                <div id="txtObli"><p>Todos los campos con * son obligatorios</p></div><br><br>
+
+                <label for="name">Introduce tu nombre:* </label>
+                <input type="text" name="nombre" id="name" placeholder="Ej: Pablo" class="box" required><br>
+
+                <label for="ncm">Introduce tu fecha de nacimiento* </label>
+                <input type="date" name="nac" id="ncm" class="box" required><br>
+
+                <label for="mail">Introduce tu correo: </label>
+                <input type="email" name="corr" id="mail" placeholder="Correo" class="box"><br><br>
+
+                <label for="nwsp">¿Quieres suscribirte al newspaper?*</label><br>
+                <label for="nwsp">Si </label><input type="radio" name="list" id="" required>
+                <label for="nwsp">No </label><input type="radio" name="list" id="" required><br><br>
+
+                <label for="ruta">¿Cual es la ruta x?*</label><br>
+                <label for="ruta">Sendero x </label><input type="checkbox" name="sen" id="">
+                <label for="ruta">Ruta y </label><input type="checkbox" name="sen" id="">
+                <label for="ruta">Ibon z </label><input type="checkbox" name="sen" id=""><br><br>
+
+                <button type="button" id="btnComprobar" value="Comprobar">Comprobar</button>
+                <button type="reset" value="Limpiar">Limpiar</button>
+
+            </fieldset>
+
+        </form>
+        </section>
+        <section id="info">
+            <div id="divRes"></div>
+        </section>
+    </main>
+    <footer>
+        <h6>El corazón en los valles, el alma en las cumbres. Explora los Pirineos.</h6>
+    </footer>
+</body>
+</html>

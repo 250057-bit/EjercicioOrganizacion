@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="sytles/index.css">
         <link rel="stylesheet" href="sytles/styles.css">
         <link rel="icon" href="assets/433049.png">
+        <script src="scripts/index.js" defer></script>
     </head>
     <body>
         <header>
@@ -15,8 +16,8 @@
         </header>
         <nav>
             <div class="divNav"><a href="pages/normas.html"><button class="navBtn">Normas</button></a></div>
-            <div class="divNav"><a href="pages/pag2.html"><button class="navBtn">Pag2</button></a></div>
-            <div class="divNav"><a href="pages/pag3.html"><button class="navBtn">Pag3</button></a></div>
+            <div class="divNav"><a href="pages/rutas.html"><button class="navBtn">Rutas</button></a></div>
+            <div class="divNav"><a href="pages/form.html"><button class="navBtn">Formulario</button></a></div>
             <div class="divNav"><a href="pages/pag4.html"><button class="navBtn">Pag4</button></a></div>
         </nav>
         <main>
@@ -24,22 +25,25 @@
                 seccion1
             </section>
             <section id="sec2">
-                <div class="polaroid">
+                <div class="polaroid" onclick="muestraTxtOrdesa()">
                 <img class="imgPolaroid" src="assets/Ordesa.jfif" alt="Ordesa">
                 <h5>Ordesa</h5>
             </div>
-            <div class="polaroid">
+            <div class="polaroid" onclick="muestraTxtAnayet()">
                 <img class="imgPolaroid" src="assets/Anayet.jfif" alt="Anayet">
                 <h5>Anayet</h5>
             </div>
+            <div class="polaroid" onclick="muestraTxtBenasque()">
+                <img class="imgPolaroid" src="assets/Benasque.jpg" alt="Benasque">
+                <h5>Benasque</h5>
+            </div>
             </section>
-            <section class="sec3_1">
-                seccion3
+            <section class="sec3_1" id="secTxt">
+                <div id="sec3TXT"><p>Haz click en cualquier imagen para tener mas informacion de cada valle</p></div>
             </section>
         </main>
-        
         <footer>
-            Esto es un footer
+            <p id="footer">Disfruta de las montañas con prudencia y orgullo</p>
         </footer>
     </body>
 </html>

@@ -47,6 +47,11 @@ main {
     background-color: pink;
 }
 
+#sec2 {
+    text-align: center;
+    justify-content: space-around;
+}
+
 footer {
     height: 10%;
     background-color: bisque;
@@ -59,6 +64,12 @@ footer {
     border-radius: 10px;
     box-shadow: 3px 3px black;
 }
+
+.navBtn:hover{
+    background-color: red;
+}
+
+
 
 .divNav {
     height: 80%;
